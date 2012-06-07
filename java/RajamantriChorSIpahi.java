@@ -1,7 +1,6 @@
 public class Rajamantri extends Activity
 {
-    
-	
+  
     @Override
 	public void onbackPressed()
     {
@@ -49,8 +48,7 @@ public class Rajamantri extends Activity
 		{
 		    
 		    finish();
-		    
-		}
+	        }
 	    });
 	
 	dialog.show();
@@ -121,7 +119,6 @@ public class Rajamantri extends Activity
     
     String nextTurn = "";
     
-    
     public void onRestart()
     {
 	
@@ -141,7 +138,6 @@ txtPlayer_one		p_two_score = 0;
 		p_three_score = 0;
 		p_four_score = 0;*/
 	
-    	
   }
     
     public void onResume(){
@@ -162,10 +158,7 @@ txtPlayer_one		p_two_score = 0;
 	  p_three_score = 0;
 	  p_four_score = 0;*/
     	
-    	
     }
-    
-    
     
     
     public void onCreate(Bundle savedInstanceState) 
@@ -237,15 +230,12 @@ txtPlayer_one		p_two_score = 0;
            Display display = getWindowManager().getDefaultDisplay(); 
            int width = display.getWidth();
            int height = display.getHeight();
-	   
-	   
-	   
+	  
            lblPlayer_one.setGravity(Gravity.CENTER_HORIZONTAL);
            lblPlayer_two.setGravity(Gravity.CENTER_HORIZONTAL);
            lblPlayer_three.setGravity(Gravity.CENTER_HORIZONTAL);
            lblPlayer_four.setGravity(Gravity.CENTER_HORIZONTAL);
-	   
-	   
+	 
            Log.v("AkandBakar", "Playernames:" + player_one_name);
            Log.v("AkandBakar", "Playernames:" + player_two_name);
            Log.v("AkandBakar", "Playernames:" + player_three_name);
@@ -339,8 +329,7 @@ txtPlayer_one		p_two_score = 0;
  	
 	
     }
-    
-    
+   
     public void makeGuess(){
 	
 	btnPlay.setText("SHUFFLE");
